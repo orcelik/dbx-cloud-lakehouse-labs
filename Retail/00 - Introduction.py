@@ -60,6 +60,7 @@ eventsFolder = rawDataDirectory + '/events'
 print('Order raw data stored under the DBFS folder "' + ordersFolder + '"')
 print('User raw data stored under the DBFS folder "' + usersFolder + '"')
 print('Website event raw data stored under the DBFS folder "' + eventsFolder + '"')
+print('')
 
 # COMMAND ----------
 
