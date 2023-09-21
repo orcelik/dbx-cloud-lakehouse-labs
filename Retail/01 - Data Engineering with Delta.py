@@ -49,8 +49,9 @@
 # COMMAND ----------
 
 userRawDataDirectory = rawDataDirectory + '/users'
-print('User raw data under folder: ' + userRawDataDirectory)
 
+print('User raw data under folder: ' + userRawDataDirectory)
+#
 # Listing the files under the directory
 for fileInfo in dbutils.fs.ls(userRawDataDirectory): print(fileInfo.name)
 
